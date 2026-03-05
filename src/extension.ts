@@ -24,7 +24,7 @@ export function activate(context: vscode.ExtensionContext) {
 
             vscode.window.showErrorMessage("Faahhh! Your code crashed!");
         }
-    });
+    }); 
 
     context.subscriptions.push(terminalListener);
 }
